@@ -1,0 +1,11 @@
+constants.svh
+memory.sv
+fetch.sv
+control.sv
+branch_control.sv
+decode.sv
+igen.sv
+register_file.sv
+writeback.sv
+execute.sv
+pd5.sv

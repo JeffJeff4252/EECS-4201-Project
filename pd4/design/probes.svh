@@ -1,0 +1,40 @@
+// ----  Probes  ----
+`define PROBE_F_PC          FETCH_PC_O
+`define PROBE_F_INSN        FETCH_INSN_O
+
+`define PROBE_D_PC          DECODE_PC_O
+`define PROBE_D_OPCODE      DECODE_OPCODE_O
+`define PROBE_D_RD          DECODE_RD_O
+`define PROBE_D_FUNCT3      DECODE_FUNCT3_O
+`define PROBE_D_RS1         DECODE_RS1_O
+`define PROBE_D_RS2         DECODE_RS2_O
+`define PROBE_D_FUNCT7      DECODE_FUNCT7_O
+`define PROBE_D_IMM         DECODE_IMM_O
+`define PROBE_D_SHAMT       DECODE_SHAMT_O
+
+`define PROBE_R_WRITE_ENABLE      CTRL_REGWREN_O
+`define PROBE_R_WRITE_DESTINATION DECODE_RD_O
+`define PROBE_R_WRITE_DATA        WB_DATA_O
+`define PROBE_R_READ_RS1          DECODE_RS1_O
+`define PROBE_R_READ_RS2          DECODE_RS2_O
+`define PROBE_R_READ_RS1_DATA     RF_RS1DATA_O
+`define PROBE_R_READ_RS2_DATA     RF_RS2DATA_O
+
+`define PROBE_E_PC                DECODE_PC_O
+`define PROBE_E_ALU_RES           ALU_RES_O
+`define PROBE_E_BR_TAKEN          ALU_BRTAKEN_O
+
+`define PROBE_M_PC                DECODE_PC_O
+`define PROBE_M_ADDRESS           DMEM_ADDR_I
+`define PROBE_M_SIZE_ENCODED      DECODE_FUNCT3_O
+`define PROBE_M_DATA              DMEM_DATA_O
+
+`define PROBE_W_PC                DECODE_PC_O
+`define PROBE_W_ENABLE            CTRL_REGWREN_O
+`define PROBE_W_DESTINATION       DECODE_RD_O
+`define PROBE_W_DATA              WB_DATA_O
+
+// ----  Top module  ----
+`define TOP_MODULE  pd4
+// ----  Top module  ----
+
