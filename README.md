@@ -1,5 +1,5 @@
 **RV32I In-Order RISC-V Core**
-<u>Overview</u>
+Overview
 
 This project implements a 32-bit in-order RISC-V processor core supporting the RV32I base integer instruction set. The design follows a modular and testable hardware architecture, with an emphasis on correctness, clarity, and robust verification.
 
@@ -14,7 +14,7 @@ Project Objectives
 -Use an in-order execution pipeline
 -Adhere to good hardware design and coding practices
 -Thoroughly verify functionality using testbenches
--Maintain the project using version control (now just PDs available for public view)
+-Maintain the project using version control (limited to just PD design files now)
 
 Features
 -32-bit RISC-V architecture
