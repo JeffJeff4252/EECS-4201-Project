@@ -17,8 +17,8 @@ Thoroughly verify functionality using testbenches
 Maintain the project using version control (limited to just PD design files now)
 
 Features
-->32-bit RISC-V architecture
-->RV32I instruction set support
-->In-order execution
-->Modular design for ease of debugging and extension
-->Compatible with the provided build and test infrastructure
+32-bit RISC-V architecture
+RV32I instruction set support
+In-order execution
+Modular design for ease of debugging and extension
+Compatible with the provided build and test infrastructure
